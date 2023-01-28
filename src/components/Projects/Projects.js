@@ -26,8 +26,8 @@ function Projects() {
               isBlog={false}
               title="Automatic Brain Segmentation using machine learning"
               description="A machine learning algorithm to automatically segments the brain images from MRI using Tensorflow and anaconda frameworks."
-              ghLink="#"
-              demoLink="#"
+              ghLink="https://github.com/gideonotieno/auto-brain-segmentation-using-ML.git"
+              demoLink="https://github.com/gideonotieno/auto-brain-segmentation-using-ML.git"
             />
           </Col>
 
