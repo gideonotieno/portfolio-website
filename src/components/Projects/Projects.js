@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import brain-seg from "../../Assets/Projects/brain-seg.png";
+import brainseg from "../../Assets/Projects/brainseg.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={brain-seg}
+              imgPath={brainseg}
               isBlog={false}
               title="Automatic Brain Segmentation using machine learning"
               description="A machine learning algorithm to automatically segments the brain images from MRI using Tensorflow and anaconda frameworks."
