@@ -22,10 +22,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={brain-seg}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Automatic Brain Segmentation using machine learning"
+              description="A machine learning algorithm to automatically segments the brain images from MRI using Tensorflow and anaconda frameworks."
               ghLink="#"
               demoLink="#"
             />
