@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import brainseg from "../../Assets/Projects/brainseg.png";
+//import brainseg from "../../Assets/Projects/brainseg.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
