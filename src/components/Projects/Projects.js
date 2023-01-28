@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-//import brainseg from "../../Assets/Projects/brainseg.png";
+
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -20,16 +20,7 @@ function Projects() {
           Here are some of the projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={brainseg}
-              isBlog={false}
-              title="Automatic Brain Segmentation using machine learning"
-              description="A machine learning algorithm to automatically segments the brain images from MRI using Tensorflow and anaconda frameworks."
-              ghLink="https://github.com/gideonotieno/auto-brain-segmentation-using-ML.git"
-              demoLink="https://github.com/gideonotieno/auto-brain-segmentation-using-ML.git"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
